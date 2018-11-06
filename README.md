@@ -56,7 +56,7 @@ tomcat根目录\conf\context.xml
     	driverClassName = "com.mysql.jdbc.Driver"
     	url = "jdbc:mysql://localhost:3306/xzldbgstjglxt"
     	username = "root"
-    	password = "595525934"
+    	password = "123456"
     	maxIdle = "2"
     	maxActive = "20"
     	maxWait = "5000"
