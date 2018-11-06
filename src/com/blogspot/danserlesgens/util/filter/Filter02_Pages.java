@@ -1,0 +1,34 @@
+package com.blogspot.danserlesgens.util.filter;
+
+import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
+
+@WebFilter(filterName = "Filter02_Pages" ,value = "/pages/*")
+public class Filter02_Pages implements Filter {
+    private String webRoot = null;
+    public void destroy() {
+    }
+
+    public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
+        HttpServletRequest request = (HttpServletRequest) req;
+        HttpServletResponse response = (HttpServletResponse) resp;
+        HttpSession session =  request.getSession(false);
+
+        if(session.getAttribute("account_user") == null){
+            response.sendRedirect(webRoot+"/index.jsp");
+        }
+        else{
+            chain.doFilter(req, resp);
+        }
+    }
+
+    public void init(FilterConfig config) throws ServletException {
+        ServletContext ctx = config.getServletContext();
+        webRoot = ctx.getContextPath();
+    }
+
+}
