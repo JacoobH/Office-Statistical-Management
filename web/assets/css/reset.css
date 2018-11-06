@@ -1,0 +1,12 @@
+body {
+
+    padding-top: 50px;/*有顶部固定导航条时设置*/
+    padding-bottom: 50px;/*有底部固定导航条时设置*/
+}
+
+.navbar-fixed-top .navbar-nav a:hover {
+    background-color: #2ebc4f !important;
+}
+.container-fluid{
+    padding-left: 0px !important;
+}

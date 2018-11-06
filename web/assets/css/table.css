@@ -1,0 +1,10 @@
+#table_bar{
+    margin-bottom: 10px;
+}
+#search{
+    float: right;
+}
+#pagination{
+    margin: 0px;
+    float: right;
+}
