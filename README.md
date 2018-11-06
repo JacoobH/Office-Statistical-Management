@@ -22,9 +22,9 @@ jdk版本：10.0.1
 
 ## 运行效果 :computer:
 
-> [系统管理员权限](https://github.com/JacoobH/Office-Statistical-Management/master/files/operation_effect_system.md)
+> [系统管理员权限](https://github.com/JacoobH/Office-Statistical-Management/blob/master/files/operation_effect_system.md)
 
-> [物业公司管理员权限](https://github.com/JacoobH/Office-Statistical-Management/master/files/operation_effect_properties.md)
+> [物业公司管理员权限](https://github.com/JacoobH/Office-Statistical-Management/blob/master/files/operation_effect_properties.md)
 
 ## 配置 :memo:
 
