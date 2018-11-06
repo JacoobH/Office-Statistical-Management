@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `xzldbgstjglxt` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `xzldbgstjglxt`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: xzldbgstjglxt
@@ -36,7 +38,7 @@ CREATE TABLE `account` (
 
 LOCK TABLES `account` WRITE;
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
-INSERT INTO `account` VALUES ('123456','123456','system'),('adsadsa','1256464','manager'),('jhy233','123546','property'),('rooter','123456','system'),('rooter123','xxx123*-','system'),('rootera','123456','system'),('rooteraaa','123456','system'),('rooterdsf','123456','manager'),('rooterxz','123456','property'),('sadsadas','sadass','property'),('sadsdasd','dsadsa','system'),('sasaas','sassaasa','system'),('sdjkadha','dsfjshfioa','manager'),('test01','123456789','system'),('test10','123456','property');
+INSERT INTO `account` VALUES ('123456','123456','system'),('fewsdwe','5645365','system'),('jhy233','123546','property'),('rooter','123456','system'),('rooter123','xxx123*-','system'),('rootera','123456','system'),('rooteraaa','123456','system'),('rooterxz','123456','property'),('sadsadas','sadass','property'),('sadsdasd','dsadsa','system'),('sasaas','sassaasa','system'),('sdjkadha','dsfjshfioa','manager'),('test01','123456789','system'),('test10','123456','property');
 /*!40000 ALTER TABLE `account` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-10-27 11:13:23
+-- Dump completed on 2018-11-06 16:30:25

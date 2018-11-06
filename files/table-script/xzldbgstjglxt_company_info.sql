@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `xzldbgstjglxt` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `xzldbgstjglxt`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: xzldbgstjglxt
@@ -37,7 +39,7 @@ CREATE TABLE `company_info` (
 
 LOCK TABLES `company_info` WRITE;
 /*!40000 ALTER TABLE `company_info` DISABLE KEYS */;
-INSERT INTO `company_info` VALUES ('admincom','张家下',210703199312175648),('honna','夯洒',210703199312175649),('sadmarry','施物',210703199312175265);
+INSERT INTO `company_info` VALUES ('admincom','张家下',210703199312175648),('honna','夯洒',210703199312175649),('sadas','sdfds',210703199312171254),('sadmarry','施物',210703199312175265),('test','testman',210703199312175266),('南风','萨撒',210703199312171584);
 /*!40000 ALTER TABLE `company_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-10-27 11:13:23
+-- Dump completed on 2018-11-06 16:30:25

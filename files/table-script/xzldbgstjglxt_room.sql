@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `xzldbgstjglxt` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `xzldbgstjglxt`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: xzldbgstjglxt
@@ -39,7 +41,7 @@ CREATE TABLE `room` (
 
 LOCK TABLES `room` WRITE;
 /*!40000 ALTER TABLE `room` DISABLE KEYS */;
-INSERT INTO `room` VALUES (1,'admincom','\0',0),(3,'admincom','\0',0),(5,'sadmarry','\0',11111100);
+INSERT INTO `room` VALUES (1,'test','',1000),(5,'sadmarry','\0',11111100),(6,'admincom','',100000),(16,'admincom','',10000),(122,'admincom','',1000),(155,'admincom','',99999),(622,'admincom','',10000),(1066,'sadmarry','',10000),(1354,'sadas','',1000),(1511,'admincom','\0',20),(1564,'honna','',10000),(8648,'test','',1000);
 /*!40000 ALTER TABLE `room` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-10-27 11:13:23
+-- Dump completed on 2018-11-06 16:30:26
