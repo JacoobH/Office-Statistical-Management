@@ -31,7 +31,11 @@ jdk版本：10.0.1
 
 数据库(mysql)：
 
-url：jdbc:mysql
+url：jdbc:mysql//localhost:8080/xzldbgstjglxt
+
+用户:root
+
+密码:123456
 
 > [表脚本](https://github.com/JacoobH/Office-Statistical-Management/tree/master/files/table-script)
 
